@@ -211,7 +211,7 @@ example : /len 10
         status_changer(num_check)
         settings_buttons = [
             [
-                InlineKeyboardButton(f"⛓ Length : {length[0]}", callback_data="none"),
+                InlineKeyboardButton(f"⛓ Length : {length[0]}", callback_data="length"),
                 InlineKeyboardButton(
                     f" Numbers : {num_check[0]}", callback_data="numbers"
                 ),
@@ -232,7 +232,7 @@ example : /len 10
         status_changer(alpha_check)
         settings_buttons = [
             [
-                InlineKeyboardButton(f"⛓ Length : {length[0]}", callback_data="none"),
+                InlineKeyboardButton(f"⛓ Length : {length[0]}", callback_data="length"),
                 InlineKeyboardButton(
                     f" Numbers : {num_check[0]}", callback_data="numbers"
                 ),
@@ -253,7 +253,7 @@ example : /len 10
         status_changer(sym_check)
         settings_buttons = [
             [
-                InlineKeyboardButton(f"⛓ Length : {length[0]}", callback_data="none"),
+                InlineKeyboardButton(f"⛓ Length : {length[0]}", callback_data="length"),
                 InlineKeyboardButton(
                     f" Numbers : {num_check[0]}", callback_data="numbers"
                 ),
@@ -273,7 +273,7 @@ example : /len 10
     elif qd == "length":
         settings_buttons = [
             [
-                InlineKeyboardButton(f"⛓ Length : {length[0]}", callback_data="none"),
+                InlineKeyboardButton(f"⛓ Length : {length[0]}", callback_data="length"),
                 InlineKeyboardButton(
                     f" Numbers : {num_check[0]}", callback_data="numbers"
                 ),
