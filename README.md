@@ -1,3 +1,4 @@
+![.]('Bot profile picture.webp')
 # Password-Generator-Bot 
 
 a simple but strong password generator telegram bot.
