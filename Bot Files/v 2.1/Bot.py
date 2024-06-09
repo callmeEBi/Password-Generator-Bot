@@ -179,7 +179,7 @@ example : /len 10
             history[userID] = []
         history[userID].append(password)
         await query.message.edit_text(
-            text=f"Generated Password: <code>{password}</code>",
+            text=f"Generated Password: <blockquote><code>{password}</code></blockquote>",
             parse_mode="HTML",
             reply_markup=gen_markup,
         )
@@ -198,7 +198,7 @@ example : /len 10
             return
         temp_history = history[userID]
         temp_history = [
-            f"{index+1} - <code>{value}</code>"
+            f"{index+1} - <blockquote><code>{value}</code></blockquote>"
             for index, value in enumerate(temp_history)
         ]
         temp_history = "\n\n".join(temp_history)
