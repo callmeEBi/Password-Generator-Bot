@@ -37,8 +37,8 @@ def password_generator():
         "&",
         "*",
         "+",
-        "-",
         "_",
+        "-",
     ]
     selection_source = []
     password = ""
